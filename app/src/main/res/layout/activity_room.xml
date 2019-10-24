@@ -6,4 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".RoomActivity">
 
+    <Button
+        android:id="@+id/buttonAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="40dp"
+        android:text="buttonAddUser"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonAddUserList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="buttonAddUserList"
+        app:layout_constraintStart_toStartOf="@+id/buttonAddUser"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddUser" />
+
+    <Button
+        android:id="@+id/buttonDeleteUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="buttonDeleteUser"
+        app:layout_constraintStart_toStartOf="@+id/buttonAddUserList"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAddUserList" />
+
+    <Button
+        android:id="@+id/buttonUpdateUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="buttonUpdateUser"
+        app:layout_constraintStart_toStartOf="@+id/buttonDeleteUser"
+        app:layout_constraintTop_toBottomOf="@+id/buttonDeleteUser" />
 </androidx.constraintlayout.widget.ConstraintLayout>
